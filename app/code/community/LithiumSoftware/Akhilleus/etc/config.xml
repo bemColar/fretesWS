@@ -87,7 +87,7 @@
 
                 <weight_type>kg</weight_type>
 
-                <url_ws>http://services.lithiumsoftware.com.br/logistics/ShippingQuoteWS.asmx?wsdl</url_ws>
+                <url_ws>http://spxnetgateway20180502112300.azurewebsites.net/ShippingQuoteWS.asmx?wsdl</url_ws>
             </akhilleus>
         </carriers>
     </default>
