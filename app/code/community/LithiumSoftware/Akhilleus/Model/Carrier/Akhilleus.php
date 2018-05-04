@@ -245,7 +245,7 @@ class LithiumSoftware_Akhilleus_Model_Carrier_Akhilleus
         $method = Mage::getModel('shipping/rate_result_method');
         $method->setCarrier($this->_code);
         $method->setCarrierTitle($this->_title);
-        /**Mage::logException('Passsou Aqui linha 248');
+        Mage::logException('Passsou Aqui linha 248');
         $method->setMethod($shipping_method);
 
 
