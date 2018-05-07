@@ -215,7 +215,7 @@ class LithiumSoftware_Akhilleus_Model_Carrier_Akhilleus
                     'Username' => $this->getConfigData('login'),
                     'Password' => $this->getConfigData('password'),
                     'SellerCEP' => $this->_from,
-                    'RecipientCEP' => $this->_to,
+                    'RecipientCEP' => '31520180',//$this->_to,
                     'RecipientCountry' => $this->_destCountry,
                     'RecipientDocument' => $this->_recipientDocument,
                     'ShipmentInvoiceValue' => $this->_value,
